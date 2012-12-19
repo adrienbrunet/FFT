@@ -100,14 +100,14 @@ def mult(a,b ):
 #H = mult(F,G)
 #print H
 
-#a =[1,1,1,1]
-#b = [1,1,1,1]
-#n=  2**int(ceil(log(7,2)))   
-#print FFT(a,n)
-#print FFT(b,n)
-#print FFT(a,8)
-#A = mult(a,b)
-#print A
+a =[1,1,1,1]
+b = [1,1,1,1]
+n=  2**int(ceil(log(7,2)))   
+print FFT(a,n)
+print FFT(b,n)
+print FFT(a,8)
+A = mult(a,b)
+print A
 
 # print len(A)
 # H2 = arrondi(H)
